@@ -51,7 +51,7 @@ code {
   width: 90%;
   text-align: justify;
 }
-.beer-container {
+.container {
   display: flex;
 }
 .all-container {
@@ -72,4 +72,34 @@ code {
 }
 .card-info {
   width: 70%;
+}
+.single-beer-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.single-beer-card {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 600px;
+  border: 1px solid black;
+  padding: 20px;
+}
+.single-beer-card img {
+  height: 250px;
+  width: 75px;
+  object-fit: contain;
+  align-self: center;
+}
+.single-beer-card h4 {
+  text-align: justify;
+}
+.block-card {
+  display: flex;
+  justify-content: space-evenly;
+}
+.block-card h3 {
+  width: 40%;
 }

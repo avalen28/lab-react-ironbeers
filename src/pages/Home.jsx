@@ -9,7 +9,7 @@ const Home = () => {
     <div>
       <h1>Hello there</h1>
       <div className="container">
-        <Link to="/all-beers" className="section-card">
+        <Link to="/beers" className="section-card">
           <img src={allBeers} alt="all beers" />
           <h3>All beers</h3>
           <h4>
