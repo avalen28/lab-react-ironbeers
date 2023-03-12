@@ -4,11 +4,10 @@ import navbar from "../assets/navbar-azul.png";
 
 const Navbar = () => {
   return (
-    <div>
-      <Link to={"/"} className="Navbar">
-        <img src={navbar} alt="navbar" className="navbar" />
-      </Link>
-    </div>
+    // navbar tiene classname para ubicarlo en la consola
+    <Link to={"/"} className="Navbar">
+      <img src={navbar} alt="navbar" />
+    </Link>
   );
 };
 

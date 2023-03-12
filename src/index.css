@@ -20,8 +20,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-.navbar {
-  height: 100px;
+
+.error-msg {
+  margin: 20px;
+  font-weight: 400;
+  font-size: larger;
 }
 
 .container {
@@ -43,13 +46,20 @@ code {
 }
 .section-card img {
   width: 90%;
+  height: 54%;
+  object-fit: cover;
+  border-radius: 10px;
 }
 .section-card h3 {
   margin: 5px;
+  width: 80%;
+  font-weight: 400;
+  border-bottom: 1px solid black;
 }
 .section-card h4 {
   width: 90%;
   text-align: justify;
+  color: gray;
 }
 .container {
   display: flex;
@@ -61,9 +71,10 @@ code {
 }
 .beer-card {
   height: 175px;
-  width: 50%;
+  width: 80%;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
   border-bottom: 1px solid rgb(156, 156, 156);
   margin-bottom: 15px;
 }
@@ -84,7 +95,8 @@ code {
   flex-direction: column;
   justify-content: space-around;
   height: 600px;
-  border: 1px solid black;
+  border: 1px solid rgb(156, 156, 156);
+  border-radius: 15px;
   padding: 20px;
 }
 .single-beer-card img {
