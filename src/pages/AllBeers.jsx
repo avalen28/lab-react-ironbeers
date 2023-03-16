@@ -47,7 +47,7 @@ const AllBeers = () => {
                 <div className="card-info">
                   <h2>{elem.name}</h2>
                   <h3>{elem.tagline}</h3>
-                  <h4>{`Created by: ${elem.contributed_by.split("<")[0]}`}</h4>
+                  <h4>{`Created by: ${elem.contributed_by}`}</h4>
                 </div>
               </Link>
             );
